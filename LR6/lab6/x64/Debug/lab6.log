@@ -1,0 +1,30 @@
+﻿Сборка начата 03.04.2025 10:28:22.
+Уровень детализации журнала: Normal.     1>Проект "D:\prog\КПО\lab6\lab6\lab6.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Debug\lab6LIB.tlog\lab6LIB.lastbuildstate" удаляется.
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\lab6LIB.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab6LIB.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"D:\prog\КПО\lab6\x64\Debug\lab6LIB.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt dictionary.cpp
+         dictionary.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\Lib.exe /OUT:"D:\prog\КПО\lab6\x64\Debug\lab6LIB.lib" /NOLOGO /MACHINE:X64 x64\Debug\dictionary.obj
+         lab6.vcxproj -> D:\prog\КПО\lab6\x64\Debug\lab6LIB.lib
+       FinalizeBuildStatus:
+         Файл "x64\Debug\lab6LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\lab6LIB.tlog\lab6LIB.lastbuildstate".
+     1>Сборка проекта "D:\prog\КПО\lab6\lab6\lab6.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\prog\КПО\lab6\lab6\lab6.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.98
