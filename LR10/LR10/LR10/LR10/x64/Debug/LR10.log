@@ -1,0 +1,31 @@
+﻿Сборка начата 06.05.2025 1:03:33.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\LR10.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "LR10\x64\Debug\LR10.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "LR10\x64\Debug\LR10.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"LR10\x64\Debug\\" /Fd"LR10\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
+         main.cpp
+     1>D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\main.cpp(10,20): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+     1>D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\main.cpp(13,20): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\x64\Debug\LR10.exe" /INCREMENTAL /ILK:"LR10\x64\Debug\LR10.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\x64\Debug\LR10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\x64\Debug\LR10.lib" /MACHINE:X64 LR10\x64\Debug\main.obj
+         LR10.vcxproj -> D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\x64\Debug\LR10.exe
+       FinalizeBuildStatus:
+         Файл "LR10\x64\Debug\LR10.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "LR10\x64\Debug\LR10.tlog\LR10.lastbuildstate".
+     1>Сборка проекта "D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\LR10.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\LR10.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\main.cpp(10,20): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+         D:\Учеба\KPO2SEM\Labs\LR10\LR10\LR10\main.cpp(13,20): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.63
